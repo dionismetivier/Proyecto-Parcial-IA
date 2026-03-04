@@ -1,0 +1,34 @@
+Nombre: Dionis Metivier Santana
+
+Matricula: 24-EISN-2-022
+
+Nombre: The Kanzo Adventures
+
+idea General:
+
+Este juego sera de genero plataformero y tratara sobre un personaje llamado Kanzo, que su hermano menor llamado lastro fue capturado por un terrorista que se llama andy, entonces Kanzo tiene que salvar a su hermano de las garras de Andy superando los diferentes obstaculos y enemigos, para asi llegar a la mansion y enfrentarse al final boss (Que es Andy).
+
+(Para este juego me inspire en Super Mario Bros y Castlevania)
+
+Uso del Algoritmo A*:
+
+Saltos precisos: Se usara el A* para que el enemigo calcule las difentes alternativas y tome la mas corta y efectiva para derrotar al protagonista Kanzo.
+
+Evitar suicidio: Se usara para que el enemigo detecte un vacio o agujero como un area no transitable, obligandolo a dar la vuelta o saltar el hueco para perseguir a Kanzo (Depende de si el enemigo es aereo o terrestre)
+
+Uso del Algoritmo de Arbol de Comportamiento:
+
+Este algoritmo se usara unica y exclusivamente para la batalla con el final boss (Que es Andy), para que asi Andy reaccione a cada uno de los movimientos y no sea un enemigo predecible y estatico.
+
+Ejemplo.
+
+-Si Kanzo va a golpear a Andy este lo esquivare moviendo para el otro lado y asi no me golpee.
+
+-Si kanzo esta en el rango de Andy este lo ataca para asi evitar ser golpeado o derrotar a Kanzo.
+
+-Si kanzo se aleja, Uso A* en Andy para que lo persigua y asi presionarlo, manteniendo una distancia respetable y segura para el mismo.
+
+-Si Kanzo no esta en el rango de Andy, este se movera de izquierda a derecha en la plataforma hasta que Kanzo se encuentre en el rango de este. 
+
+
+
